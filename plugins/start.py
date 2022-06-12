@@ -15,7 +15,7 @@ async def start(client,message):
           InlineKeyboardButton("Support 🌼" ,url="https://t.me/maxmoviesorginal"), 
 	  InlineKeyboardButton("Join as 🤗", url="https://t.me/maxmoviesorginal")
           ],[
-          InlineKeyboardButton("✨ My deploy link ✨", url="")
+          InlineKeyboardButton("✨ For Movies join now ✨", url="https://t.me/maxmoviesorginal")
           ]]
           )
         )
