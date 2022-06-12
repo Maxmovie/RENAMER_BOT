@@ -8,14 +8,14 @@ async def start(client,message):
 	insert(int(message.chat.id))
 	await message.reply_text(text =f"""
 	Hello {message.from_user.first_name }
-	__I am file renamer bot,Made by Abel bro @Maxmoviesorginal - Please sent any telegram 
+	__I am file renamer bot,Made by abel bro,Please sent any telegram 
 	**Document Or Video** and enter new filenameto rename it__
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup([[
-          InlineKeyboardButton("Support 🌼" ,url="https://t.me/maxmoviesorginal"), 
-	  InlineKeyboardButton("Join as 🤗", url="https://t.me/maxmoviesorginal")
+          InlineKeyboardButton("" ,url=""), 
+	  InlineKeyboardButton("", url="")
           ],[
-          InlineKeyboardButton("✨ For Movies join now ✨", url="https://t.me/maxmoviesorginal")
+          InlineKeyboardButton("", url="")
           ]]
           )
         )
